@@ -1,0 +1,333 @@
+.logo {
+    position : absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+}
+.logo-div{
+    width: 15%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+.logo-div img {
+    height: 100%;
+}
+.nav {
+    background-color: #01df70;
+    width: 85%;
+    height: 100%;
+    right: 0;
+    position: absolute; 
+    float: right;
+    top:0;
+    /*background-image:url("images/white-mountain-with-swoosh-road-blue-background_585146-91.avif");*/
+    display: inline-flex;
+    align-items: center;
+
+}
+.right-navbar {
+    background-color: aliceblue;
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    right: 0;
+}
+.nav-header {
+    display: inline-flex;
+    height: 100%;
+    width: 100%;
+}
+.navbar ul, ul li {
+    display: flex;
+    padding: 0px 28px;
+}
+.navbar ul li{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.navbar ul li a{
+    color: white;
+    font-style: normal;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: #1e51f6;
+    transform: translateY(-2px);
+}
+
+.navbar-ul {
+    text-align: center;
+    align-items: center;
+}
+.header {
+    height: 104.333px;
+    width: 100%;
+    position: relative;
+    top: 0;
+    right: 0;
+    /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, .1);*/
+    z-index: 1;
+}
+.body {
+    background-color: #01df70;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    right: 0;
+    margin: 0;
+    display: flex;
+    grid-row: inherit;
+}
+
+.container {
+    display: block;
+    grid-column: auto;
+    padding: 0;
+    width: 100%;
+    height: max-content;
+    right: 0;
+    position: absolute;
+    top: 0;
+}
+.flex-col {
+    box-shadow: 2px 2px 4px rgba(48, 41, 41, 0.973),  2px 8px 16px rgb(71, 64, 64);
+}
+.image {
+    width: 75%;
+    height: 600px;
+}
+.image img{
+    width: 100%;
+    height: 600px;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.btn {
+    width: 25px;
+    height: 25px;
+    padding: 5px 0 4px 0;
+    border-radius: 50%;
+    border: none;
+    margin: 20px 65px 0;
+    top: -60%;
+    background-color: #01df70;
+    color: white;
+    align-items: center;
+    font: 80px;
+    font-weight: 600;
+    position: relative;
+    text-align: center;
+}
+.side-bar {
+    width: 25%;
+    background-color: none;
+    position: relative;
+}
+.side-bar ul {
+    display: flex;
+    padding:0 30px;
+    width: max-content;
+    text-align: center;
+    margin: 0 auto;
+}
+.side-bar ul li{
+    display: flex;
+    padding: 0 8px;
+    align-items: center;
+    text-align: center;
+}
+.class-icons {
+    text-align: center;
+    padding: 0 auto;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+}
+.social-btn {
+    background-color: #01df70;
+    border: none;
+    color: white;
+    width: 30px;
+    height: 30px;
+}
+.icons {
+    width: 50px;
+    height: 50px;
+}
+.ul-icons {
+    text-align: center;
+    align-items: center;
+}
+
+.abs-image {
+    top: 19%;
+    right: 8%;
+    height: 300px;
+    max-height: 300px;
+    width: 500px;
+    background-color: white !important;
+    padding: 0 50px;
+}
+.abs-image h2{
+    margin: 70px 0px 20px 0;
+    /*border-bottom: 10px solid #01df70;*/
+    line-height: 1.5em;
+}
+.border {
+    height: 7px;
+    width: 47px;
+    background-color: #01df70;
+    opacity: 0.55;
+    position: absolute;
+    margin: 91px 0px 20px 0;
+}
+.b1 {
+    margin: 126px 0px 20px 0;
+    width: 165px;
+}
+.b2 {
+    margin: 45px 0px 0px 20px;
+    width: 247px;
+    height: 10px;
+}
+.abs-image img {
+    width: 500px;
+    height: 300px;
+    box-shadow: 2px 2px 4px rgba(48, 41, 41, 0.973), 2px 8px 16px rgb(71, 64, 64);
+}
+.opacity-div {
+    background-color: #01df70;
+    width: 100px;
+    height: 300px;
+    opacity: 0.6;
+    /*box-shadow: 2px 2px 4px rgba(48, 41, 41, 0.973),  2px 8px 16px rgb(71, 64, 64);*/
+
+}
+.abs-div{
+    display: block;
+    position: absolute;
+    top: 19%;
+    right: 8%;
+    width: 600px;
+    height: auto;
+}
+.abs-flex {
+    display: flex;
+}
+.btn-learn {
+    position: absolute;
+    display: flex;
+    bottom: -17px;
+    align-items: center;
+    height: 40px !important;
+    padding: 0 35% !important;
+    text-align: center;
+    /*margin-bottom: 30px;*/
+    
+}
+/*.btn-learn img{
+    padding: 10px 0px 6px 0px;
+    width: 50px;
+    height: 30px;
+}*/
+.btn-learn a {
+    align-items: center;
+    width: 250px;
+    display: flex;
+    text-decoration: none;
+    background-color: #01df70;
+    height: 45px;
+    text-align: center;
+    padding: 2% 20% !important;
+    float: center;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1),  0px 0px 1px rgb(0, 0, 0, 0.1);
+
+}
+.span {
+    color: white;
+    text-align: center;
+    padding-left: 9%;
+    width: 100px;
+}
+.footer {
+    height: max-content;
+    width: 100%;
+    max-width: 100%;
+    background-color:aliceblue;
+    /*position: absolute;*/
+    z-index: 0;
+    display: flex;
+    text-align: center;
+}
+.footer-box {
+    height: max-content;
+    width: 310px;
+    text-align: center;
+    display: block;
+    background-color: aliceblue;
+    /*padding: 10px 0;*/
+    margin: 60px auto;
+    border-radius: 15px;
+    /*width: max-content;*/
+    text-align: center;
+    /*box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1),  0px 0px 1px rgb(0, 0, 0, 0.1);*/
+    /*box-shadow: 2px 2px 4px rgba(48, 41, 41, 0.973),  2px 8px 16px rgb(71, 64, 64);*/
+
+}
+.footer-box p,h1 {
+    text-align: left;
+    padding: 0 20px;
+    color: rgb(70, 37, 37);
+}
+.footer-box p {
+    color: black;
+}
+.footer-box h1{
+    border-bottom:4px #333;
+}
+.a-center {
+    padding: 0 20px;
+    text-align: center;
+    width: 300px;
+    text-align: left;
+}
+.a-center a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: #01df70;
+    width: 150px;
+    height: 50px;
+    padding: 0 20px;
+    font-size: smaller;
+    font-weight: 600;
+    background-color: #01df70;
+    text-align: left;
+}
+.span-footer {
+    color: white;
+    padding-left: 17%;
+}
+.fb1{
+    padding-top: 60px;
+    width: 22%;
+}
+.fb1 p{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.fb0 {
+    width: 20%;
+}
+.fb1 h2{
+    color: rgb(123, 121, 121) !important;
+}
